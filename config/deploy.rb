@@ -1,5 +1,5 @@
 # Change these
-server '52.55.181.213', port: 22, roles: [:web, :app, :db], primary: true
+server '54.91.84.154', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'https://github.com/subhanp/toy_app.git'
 set :application,     'toy_app'
