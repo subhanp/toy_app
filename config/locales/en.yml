@@ -30,4 +30,4 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "This is rails application"
+  hello: "Hello, World!"
