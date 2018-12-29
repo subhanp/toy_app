@@ -10,7 +10,7 @@ EXPOSE 80
 RUN rm -f /etc/service/nginx/down
 # Configure Nginx
 RUN rm /etc/nginx/sites-enabled/default
-ADD docker/my-app.conf /etc/nginx/sites-enabled/my-app.conf
+ADD toy_app.conf /etc/nginx/sites-enabled/toy_app.conf
 #ADD docker/postgres-env.conf /etc/nginx/main.d/postgres-env.conf
 # Install the app
 ADD . /home/ubuntu/toy_app
